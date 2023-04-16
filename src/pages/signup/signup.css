@@ -1,0 +1,115 @@
+#Signup_returndiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#Signup_Maindiv {
+  width: 25%;
+  background-color: white;
+  margin-top: 2%;
+  height: auto;
+  border: 1px solid #ff8b2c;
+  padding: 0px 10px 20px 20px !important;
+}
+#Signup_mainHeading {
+  text-align: center;
+}
+.Signup_InputsHeading {
+  font-size: 18px;
+  margin: 0%;
+  margin-bottom: 3px;
+  color: rgb(49, 47, 47);
+}
+.Signup_Inputs {
+  padding: 10px;
+  width: 93%;
+  border: 1px solid #ff8b2c;
+  outline: none;
+  margin: 0%;
+  margin-bottom: 15px;
+}
+#Signup_inputsDIv {
+  width: 95%;
+}
+#Signup_button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 15px 9px 15px 9px;
+  margin: 0%;
+  background-color: #ff8b2c;
+  border: none;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+}
+#Signup_LoginNavigate {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 15px;
+}
+#Signup_LoginNavigate > span {
+  color: #ff8b2c;
+  cursor: pointer;
+}
+#Signup_LoginNavigate > span:hover {
+  text-decoration: underline;
+}
+::placeholder {
+  font-size: 14px;
+  color: rgb(212, 203, 203);
+  letter-spacing: 1px;
+}
+#Signup_NullMessage {
+    font-size: 14px;
+  visibility: hidden;
+  margin: 0%;
+  margin-bottom: 10px;
+  padding: 0%;
+  color: red;
+  min-height: 25px;
+  max-height: auto;
+}
+#Signup_Message {
+    font-size: 14px;
+  margin: 0%;
+  margin-bottom: 10px;
+  padding: 0%;
+  color: red;
+  min-height: 25px;
+  max-height: auto;
+  text-transform: capitalize;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media only screen and (max-width: 800px) {
+  #Signup_Maindiv {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #Signup_Maindiv {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #Signup_Maindiv {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 300px) {
+  #Signup_Maindiv {
+    width: 80%;
+  }
+  h1 {
+    font-size: 14px !important;
+  }
+  ::placeholder {
+    font-size: 12px !important;
+  }
+}

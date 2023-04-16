@@ -1,0 +1,38 @@
+.bg-body-tertiary {
+  /* background-color: #e4e6e7 !important; */
+  /* background:linear-gradient(to right,#EC9F05,#FF4E00); */
+  background-color: #2f3031 !important;
+}
+.navbar-nav {
+  display: flex !important;
+  width: 100%;
+  justify-content: space-around !important;
+}
+#ImageDiv {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+#Username {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-left: 10px;
+  color: white;
+}
+.nav-link{
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0%;
+    padding: 0%;
+    /* font-weight: 500; */
+    color: white;
+}
+.nav-link:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.navbar-toggler{
+  background-color: white;
+}

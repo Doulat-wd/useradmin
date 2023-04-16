@@ -1,0 +1,125 @@
+#Login_returndiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#Login_Maindiv {
+  background-color: white;
+  width: 25%;
+  margin-top: 2%;
+  height: auto;
+  border: 1px solid #ff8b2c;
+  padding: 0px 10px 20px 20px !important;
+}
+#Login_mainHeading {
+  text-align: center;
+}
+.Login_InputsHeading {
+  font-size: 18px;
+  margin: 0%;
+  margin-bottom: 3px;
+  color: rgb(49, 47, 47);
+}
+.Login_Inputs {
+  padding: 10px;
+  width: 93%;
+  border: 1px solid #ff8b2c;
+  outline: none;
+  margin: 0%;
+  margin-bottom: 15px;
+}
+#Login_inputsDIv {
+  width: 95%;
+}
+#Login_button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 15px 9px 15px 9px;
+  margin: 0%;
+  background-color: #ff8b2c;
+  border: none;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+}
+#Login_LoginNavigate {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 15px;
+}
+#Login_LoginNavigate > span {
+  color: #ff8b2c;
+  cursor: pointer;
+}
+#Login_LoginNavigate > span:hover {
+  text-decoration: underline;
+}
+#Login_ForgotPass {
+  cursor: pointer;
+  margin: 0% !important;
+  padding: 0% 0% 10px 0% !important;
+  text-align: right !important;
+  font-size: 18px;
+  color: #ff8b2c;
+}
+#Login_ForgotPass:hover {
+  text-decoration: underline;
+}
+#Login_NullMessage {
+  visibility: hidden;
+  margin: 0%;
+    font-size: 14px;
+    margin-bottom: 10px;
+  padding: 0%;
+  color: red;
+  min-height: 25px;
+  max-height: auto;
+}
+#Login_Message {
+    font-size: 14px;
+    margin: 0%;
+  margin-bottom: 10px;
+  padding: 0%;
+  color: red;
+  min-height: 25px;
+  max-height: auto;
+  text-transform: capitalize;
+}
+::placeholder {
+  font-size: 14px;
+  color: rgb(212, 203, 203);
+  letter-spacing: 1px;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+@media only screen and (max-width: 800px) {
+  #Login_Maindiv {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #Login_Maindiv {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #Login_Maindiv {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 300px) {
+  #Login_Maindiv {
+    width: 80%;
+  }
+  h1 {
+    font-size: 14px !important;
+  }
+  ::placeholder {
+    font-size: 12px !important;
+  }
+}

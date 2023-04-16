@@ -1,0 +1,88 @@
+#CreateMainDiv{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background-color: red; */
+}
+#CreateInnerDiv{
+    padding: 20px;
+    width: 70%;
+    /* background-color: blue; */
+    
+    position: relative;
+}
+#CreateInput{
+    width: 100%;
+    padding: 10px;
+    border:1px solid #ff8b2c;
+    margin: 0%;
+    outline: none;
+}
+#CreateInput>option{
+    font-size: 16px;
+    color: rgb(192, 190, 190);
+}
+.SelectCreate{
+    font-size: 16px;
+    color: rgb(192, 190, 190);
+}
+.createH1{
+
+font-size: 20px;
+padding: 0%;
+margin: 0%;
+margin-top: 10px;
+margin-bottom: 5px;
+}
+.CreateTitleAmount{
+    font-size: 12px;
+    text-align: right;
+    padding: 0%;
+    margin: 0%;
+}
+.CreateTitleAmount>span{
+    color: #ff8b2c;
+}
+#CreateDescription{
+    padding: 10px;
+    height: 200px;
+    width: 100%;
+    border: #ff8b2c 1px solid;
+    outline: none ;
+}
+
+
+
+/* image upload */
+._upload {
+    width: 100%;
+    border: 1px solid #ff8b2c;
+    border-radius: 5px;
+    outline: none;
+    color: rgb(192, 190, 190);
+    text-align: left;
+    font-size: 12px;
+    margin: auto auto -5px;
+    margin-top: 10px;
+    padding: 10px;
+}
+input[type=file] {
+    display: none;
+}
+
+
+#CreateFinalButton{
+    border: none;
+    background-color: #ff8b2c;
+    margin-top: 70px;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 14px;
+    padding: 9px 7px 9px 7px;
+    border-radius: 5px;
+    position: absolute;
+    right: 2%;
+    bottom: -10%;
+}

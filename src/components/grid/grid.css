@@ -1,0 +1,31 @@
+#allPostsGrid{
+    height: 150px;
+    background-color: rgb(11, 134, 250);
+}
+#approvePostsgrid{
+    height: 150px;
+    background-color:rgb(7, 201, 7);
+}
+#pendingpostsgrid{
+    height: 150px;
+    background-color:gray; 
+}
+#rejectPostsgrid{
+    height: 150px;
+    background-color:red;
+}
+.postsItemsGrid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.postsItemsGrid>h1{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.GridMainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

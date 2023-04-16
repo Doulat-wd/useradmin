@@ -1,0 +1,96 @@
+#ProfileMainDiv{
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#ProfileInnerDiv{
+    width: 70%;
+padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#ProfileProfileDiv{
+    width: 100%;
+    
+    border-top-left-radius: 10px;
+    margin-bottom: 0%;
+    padding: 10px;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+#ProfileProfileImage{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    cursor: pointer;
+   
+}
+
+#ProfileSectionDiv{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.ProfileInputs{
+    width: 100%;
+    height: 40px;
+    margin: 0%;
+    padding: 0%;
+    outline: none;
+    border: #ff8b2c 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    color: #5f5c5a;
+}
+#ProfileHeading{
+    font-size: 24px;
+    align-self: flex-start;
+    text-align: left;
+    margin-bottom: 5px;
+    margin-top: 15px;
+   color: black;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#UpdateProfileButton{
+    padding: 10px 15px 10px 15px;
+    background-color: #ff8b2c;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-self: flex-end;
+    margin-top: 10px;
+
+}
+#UpdateProfileButton:hover{
+    background-color: white;
+    color: #ff8b2c;
+    cursor: pointer;
+    border: #ff8b2c 1px solid;
+    text-decoration: underline;
+}
+
+/* image upload */
+.profileUploadImage {
+    /* width: 100%; */
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+}
+#exampleFormControlFile3123 {
+    display: none;
+}
